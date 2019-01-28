@@ -4,7 +4,15 @@ layout: basic
 
 # Home
 
+Github Repositories:
+
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
 This is the landing page for my blog.
+
+![User Icon]({{ site.github.owner_gravatar_url }})
 
 Here are some code snippets:
 ```
