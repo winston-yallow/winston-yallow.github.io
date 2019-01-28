@@ -7,7 +7,7 @@ layout: basic
 This is the landing page for my blog.
 
 Here are some code snippets:
-```python
+```
 # This is a small test
 foo = "bar"
 if foo == "bar":
