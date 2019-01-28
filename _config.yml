@@ -3,4 +3,6 @@ title: "Game Development Blog"
 description: "by Winston Yallow"
 
 markdown: kramdown
-highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
