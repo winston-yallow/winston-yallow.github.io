@@ -64,6 +64,22 @@
 
       {{ content }}
 
+      <div class="row p-3 mt-5 bg-secondary">
+        <div class="col-md-6">
+          <h5>Social</h5>
+          <p>
+            {% octicon mark-github %} <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+          </p>
+        </div>
+        <div class="col-md-6 float-md-right">
+          <h5>Copyright Information</h5>
+          <p>
+            This page is licensed under the {{ site.github.license.name }}.<br>
+            You can see the source in the <a href="{{ site.github.repository_url }}">Github Repository</a>
+          </p>
+        </div>
+      </div>
+
     </div>
 
     <!-- Optional JavaScript -->
