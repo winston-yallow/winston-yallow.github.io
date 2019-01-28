@@ -1,3 +1,6 @@
+---
+layout: basic
+---
 
 # index.md
 
