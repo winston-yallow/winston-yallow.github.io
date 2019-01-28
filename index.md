@@ -4,4 +4,4 @@ layout: basic
 
 # Hello!
 
-Welcome to my small blog. I will mostly blog about the Godot Game Engine.
+Welcome to my small blog. I will mostly write about the Godot Game Engine.
