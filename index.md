@@ -2,6 +2,6 @@
 layout: basic
 ---
 
-# index.md
+# Home
 
 This is the landing page for my blog.
