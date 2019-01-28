@@ -1,3 +1,8 @@
 
 title: "Game Development Blog"
 description: "by Winston Yallow"
+
+repository: winston-yallow/winston-yallow.github.io
+
+plugins:
+  - "jekyll-github-metadata"
