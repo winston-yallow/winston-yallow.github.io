@@ -5,6 +5,8 @@ title: "Markdown Test Post"
 
 This is only a test.
 
+<!--more-->
+
 ```swift
 var foo = "bar"
 func _ready():
