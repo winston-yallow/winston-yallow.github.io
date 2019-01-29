@@ -1,6 +1,9 @@
 
-title: "Game Development Blog"
-description: "by Winston Yallow"
+title: "Winston Yallow"
+title_animation:
+  width: 180px
+  time: 300ms
+description: "Game Development Blog"
 twitter_name: "WinstonYallow"
 
 repository: winston-yallow/winston-yallow.github.io

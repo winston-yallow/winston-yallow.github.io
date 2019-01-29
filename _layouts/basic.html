@@ -17,16 +17,35 @@
       .img-round {
         border-radius: .25rem !important;
       }
+      .scrollshow {
+        overflow-x: hidden;
+        width: auto;
+        max-width: 0px;
+        display: block;
+        float: right;
+        transition: max-width {{ site.title_animation.time }} linear;
+      }
+      .scrollshow.active {
+        max-width: {{ site.title_animation.width }};
+      }
     </style>
 
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="jumbotron jumbotron-fluid mb-0">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold">{{ site.title }}</h1>
+        <p class="lead font-weight-bold">{{ site.description }}</p>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top mb-4">
       <div class="container">
 
         <a class="navbar-brand" href="/">
           <img src="{{ site.github.owner_gravatar_url }}" class="img-round" width="30" height="30" alt="">
+          <span class="scrollshow activate-scroll-gt-150">&nbsp;&nbsp;WinstonYallow</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -58,13 +77,6 @@
 
       </div>
     </nav>
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">{{ site.title }}</h1>
-        <p class="lead">{{ site.description }}</p>
-      </div>
-    </div>
 
     <div class="container">
 
@@ -99,5 +111,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script>
+
+    function scrollHandler(event) {
+      var elements = $(".activate-scroll-gt-150");
+      if ( window.pageYOffset > 150 ) {
+          elements.addClass("active");
+      } else {
+          elements.removeClass("active");
+      }
+    }
+
+    $().ready(function () {
+      scrollHandler();
+      document.addEventListener('scroll', scrollHandler);
+    })
+
+    </script>
+
   </body>
 </html>
