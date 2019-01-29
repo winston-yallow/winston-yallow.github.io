@@ -17,6 +17,7 @@
       .img-round {
         border-radius: .25rem !important;
       }
+
       .scrollshow {
         overflow-x: hidden;
         width: auto;
@@ -24,11 +25,16 @@
         display: block;
         float: right;
         opacity: 0.0;
-        transition: max-width {{ site.title_animation.time }} linear, opacity {{ site.title_animation.time }} linear;
       }
       .scrollshow.active {
         opacity: 1.0;
         max-width: {{ site.title_animation.width }};
+      }
+
+      @media (min-width: 576px) {
+        .scrollshow {
+          transition: max-width {{ site.title_animation.time }} linear, opacity {{ site.title_animation.time }} linear;
+        }
       }
     </style>
 
@@ -42,7 +48,7 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top mb-4">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top mb-5">
       <div class="container">
 
         <a class="navbar-brand" href="/">
