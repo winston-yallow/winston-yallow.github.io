@@ -23,9 +23,11 @@
         max-width: 0px;
         display: block;
         float: right;
-        transition: max-width {{ site.title_animation.time }} linear;
+        opacity: 0.0;
+        transition: max-width {{ site.title_animation.time }} linear, opacity {{ site.title_animation.time }} linear;
       }
       .scrollshow.active {
+        opacity: 1.0;
         max-width: {{ site.title_animation.width }};
       }
     </style>
