@@ -249,6 +249,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
   jekyll-github-metadata
   jekyll-octicons
   wdm (>= 0.1.0)

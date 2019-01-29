@@ -7,3 +7,4 @@ repository: winston-yallow/winston-yallow.github.io
 plugins:
   - "jekyll-github-metadata"
   - "jekyll-octicons"
+  - "jekyll-feed"
