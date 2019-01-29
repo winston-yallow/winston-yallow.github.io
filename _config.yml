@@ -1,11 +1,14 @@
 
 title: "Winston Yallow"
+description: "Game Development Blog"
+twitter_name: "WinstonYallow"
+
 title_animation:
   width: 180px
   time: 400ms
-description: "Game Development Blog"
-twitter_name: "WinstonYallow"
 logo_url: /media/logo.png
+
+excerpt_separator: <!--more-->
 
 repository: winston-yallow/winston-yallow.github.io
 
