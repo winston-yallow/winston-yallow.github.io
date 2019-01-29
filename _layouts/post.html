@@ -5,17 +5,12 @@ layout: basic
 <div class="row">
   <div class="col">
     <h2>{{ page.title }}</h2>
+    <p class="text-muted"><em>{{ page.date | date_to_long_string }}</em></p>
   </div>
 </div>
 
 <div class="row">
   <div class="col">
     {{ content }}
-  </div>
-</div>
-
-<div class="row">
-  <div class="col">
-    <span class="text-muted"><em>{{ page.date | date_to_long_string }}</em></span>
   </div>
 </div>
