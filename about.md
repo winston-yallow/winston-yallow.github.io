@@ -5,7 +5,7 @@ layout: basic
 ## About
 
 I will mostly write about game development. The engine that I use for most
-projects is the Godot Game Engine
+projects is the Godot Game Engine.
 
 ### Tools
 
