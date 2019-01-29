@@ -1,0 +1,20 @@
+
+- name: Godot Engine
+  description: Godot is a completely free and open-source game engine.
+  url: "https://godotengine.org/"
+  license: MIT
+
+- name: GIMP
+  description: Cross platform image editor.
+  url: "https://www.gimp.org/"
+  license: GPL
+
+- name: Blender
+  description: Complete 3D creation suite.
+  url: https://www.blender.org/
+  license: GPL
+
+- name: Krita
+  description: Free and open source digital painting application.
+  url: "https://krita.org/"
+  license: GPL
