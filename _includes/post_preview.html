@@ -1,0 +1,22 @@
+
+
+<div class="row mt-4 mb-3">
+  <div class="col">
+    <h2>
+      <a href="{{ include.postdata.url }}" class="text-reset">
+        {{ include.postdata.title }}
+      </a>
+    </h2>
+    <p class="text-muted">
+      <em>{{ include.postdata.date | date_to_long_string }}</em>
+    </p>
+    {{ include.postdata.excerpt }}
+    <p>
+      <a href="{{ include.postdata.url }}">read more</a>
+    </p>
+  </div>
+</div>
+
+{% if include.last == false %}
+  <hr>
+{% endif %}
