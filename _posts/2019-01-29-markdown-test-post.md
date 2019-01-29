@@ -3,7 +3,8 @@ layout: post
 title: "Markdown Test Post"
 ---
 
-This is only a test.
+This is a small test using `markdown` to generate `HTML`.
+Click on the "read more" link to see the full post.
 
 <!--more-->
 

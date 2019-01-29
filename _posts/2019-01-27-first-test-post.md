@@ -7,4 +7,4 @@ This is only a test.
 
 <!--more-->
 
-This test only has two paragraphs.
+Nothing to see here.
