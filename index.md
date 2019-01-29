@@ -12,7 +12,7 @@ The blog is currently under construction.
 You won't find any content here.  
 You may find problems.  
 If you find a bug feel free to
-[open and issue]({{ site.github.issues_url }}).
+[open an issue]({{ site.github.issues_url }}).
 
 ### Posts
 
