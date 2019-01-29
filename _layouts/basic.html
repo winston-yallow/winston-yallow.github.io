@@ -63,7 +63,7 @@
       <div class="container">
 
         <a class="navbar-brand" href="/">
-          <img src="{{ site.github.owner_gravatar_url }}" class="img-round" width="30" height="30" alt="">
+          <img src="{{ site.logo_url | default: site.github.owner_gravatar_url }}" class="img-round" width="30" height="30" alt="">
           <span class="scrollshow activate-scroll-gt-150">&nbsp;&nbsp;WinstonYallow</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
