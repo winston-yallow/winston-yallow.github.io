@@ -13,7 +13,7 @@ layout: basic
     <p class="card-text">
       If you find a bug feel free to open a GitHub issue.
     </p>
-    <a href="{{ site.github.issues_url }}" class="btn btn-secondary octicon-white">{% octicon bug %}&nbsp;&nbsp;GitHub Issues</a>
+    <a href="{{ site.github.issues_url }}" class="btn btn-secondary octicon-white border border-light">{% octicon bug %}&nbsp;&nbsp;GitHub Issues</a>
   </div>
 </div>
 
