@@ -22,3 +22,9 @@ foo equals 'bar'
 ```
 
 Inline `code` is also possible.
+
+- This
+- is
+- a
+- simple
+- List
